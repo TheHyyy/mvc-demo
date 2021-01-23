@@ -1,0 +1,19 @@
+#app4 {
+}
+@keyframes changeColor {
+  0% {
+    background-color: greenyellow;
+  }
+  100% {
+    background-color: skyblue;
+  }
+}
+#app4 .circle {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+#app4 .circle.active {
+  animation: changeColor 1s infinite alternate linear;
+}
